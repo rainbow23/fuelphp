@@ -62,6 +62,7 @@
 					<li><a href="http://fuelphp.com/contribute/issue-tracker">Issue Tracker</a></li>
 				</ul>
 			</div>
+			 <?php echo Pagination::instance('mypagination')->render(); ?>
 		</div>
 		<hr/>
 		<footer>
