@@ -34,11 +34,12 @@ private $_pager;
 		// Config::load('pagination');
 		$config = array(
 			'pagination_url' => 'http://localhost/fuel/welcome/index/3',
-			'uri_segment' => 3,
-			'num_links' => 2,
+			'current_page' => 4,
+			'uri_segment' => '3',
+			'num_links' => 5, //表示するリンクの総数。
 			'per_page' => 2,
-			'total_items' => 60,
-			'name' => 'pagination',
+			'total_items' => 8,
+			// 'name' => 'pagination.php',
 			'show_first' => true,
 			'show_last' => true,
 		);
